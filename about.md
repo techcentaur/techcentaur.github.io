@@ -1,7 +1,8 @@
-# ultralight
-
-[![Build Status](https://github.com/kotet/ultralight/actions/workflows/build-check.yml/badge.svg)](https://github.com/kotet/ultralight/actions/workflows/build-check.yml)
-[![](https://github.com/kotet/ultralight/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/kotet/ultralight/actions/workflows/pages/pages-build-deployment)
+---
+layout: page
+title: About
+permalink: /about/
+---
 
 ![shot](https://user-images.githubusercontent.com/8435623/34344912-0665d490-ea2e-11e7-9bd8-919a6ced2a40.png)
 
@@ -45,5 +46,5 @@ On IPFS, all internal links must be relative links.
 You can use `relative` template like this:
 
 ```
-[link]({% include relative %}{% post_url your-article-filename %})
+{% raw %}[link]({% include relative %}{% post_url your-article-filename %}){% endraw %}
 ```
