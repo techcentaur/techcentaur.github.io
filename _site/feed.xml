@@ -5,9 +5,30 @@
     <description>Minimalist Jekyll theme for technical writing blog.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Sep 2023 16:23:14 +0530</pubDate>
-    <lastBuildDate>Sun, 24 Sep 2023 16:23:14 +0530</lastBuildDate>
+    <pubDate>Sun, 24 Sep 2023 23:58:37 +0530</pubDate>
+    <lastBuildDate>Sun, 24 Sep 2023 23:58:37 +0530</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Fixing and Moving On</title>
+        <description>&lt;p&gt;To you reader, I apologize this is not a post, this is a note to myself.
+Here am I again, trying to fix, myself and my blog again; myself first.&lt;/p&gt;
+
+&lt;p&gt;Some days are hard, some days are easy, some days are just days. It’s one of those days.
+There has to come some time, when you ask yourself, is this it? Is this who I am?
+Reflecting on the things that bother you, trying to control people, time, their opinions, and your reaction.&lt;/p&gt;
+
+&lt;p&gt;In my mind, I’m saying a lot of things. But here’ll I say, go outside and look at the sky, it’s alright.&lt;/p&gt;
+
+&lt;p&gt;It took a while, but I fixed my blog. It’s clear, better, and more focused. You know what I mean.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 24 Sep 2023 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2023/fixing-the-blog-and-moving-on/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/fixing-the-blog-and-moving-on/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Summer</title>
@@ -207,31 +228,6 @@
         <category>journal</category>
         
         <category>pandemic</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Games, Books, and Dealing With the Lockdown</title>
-        <description>&lt;p&gt;The majority of the past week has been fun. I completed NFS Payback and Heat, both were good and enjoyable, though they went too hard on drag and drift races, a couple of them are fine, maybe in side contests, but covering 40% of the tasks with drifts doesn’t make much sense. There is the need for SPEED not GOOD TIRES.&lt;/p&gt;
-
-&lt;p&gt;I also completed Call of Duty Black Ops I and II, which were the BEST because of all the amazing story-telling. Black Ops III is of 100GB so I’m first playing Modern Welfare and then will go back to III and IV parts. I also started playing Watch Dogs 2 and so far it’s alright and will start playing GTA-V in a couple of days. So there’s that. Games are taking all the fun. I should probably choose a POV shooting-based game to play online with, that sounds so much fun.&lt;/p&gt;
-
-&lt;p&gt;I’ve read an ample amount of books this year but considering I have a lot of time on my hand, I will take up big ones that I usually don’t get started with. I picked up The Brothers Karamazov and so far the amount of drama they pushed me into is pretty surprising. Having read so much Gabriel Garcia Marquez, my extra-fondness for him can be seen with the fact that I started News of the Kidnapping out of the blue and continued to read for the first 50 pages without a blink. His style just catches me quick.&lt;/p&gt;
-
-&lt;p&gt;Besides that I started taking enjoyment in small assignments of my Abstract Algebra and Multimedia Streaming whereas Indian English Poetry is so boring I can’t even comprehend. Though I like Poetry (obv) but reading Poetries from Colonial India around 1800 just doesn’t make much sense. Geez give me some verses on human emotions, I’m bad at those.&lt;/p&gt;
-
-&lt;p&gt;I’ve also started going to a Park at night, which naturally gives me some dopamine that I need now more than over. Oh my first time using WSL2 on Windows, going alright till now.&lt;/p&gt;
-
-&lt;p&gt;Rest can’t say anything about lockdown, hopefully it ends soon and something good happens maybe Martin releases first manuscript of Winds of Winter, that’d be so lovely though.&lt;/p&gt;
-
-&lt;p&gt;Alright, another journal, will write more. Farewell.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 20 Oct 2020 23:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/games,-books,-and-dealing-with-the-lockdown/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/games,-books,-and-dealing-with-the-lockdown/</guid>
-        
-        <category>lockdown</category>
         
         
       </item>
