@@ -1,0 +1,104 @@
+I"�<p>/** recent **/</p>
+
+<p>(going to update soon)</p>
+
+<hr />
+<p>/** Below are pre-2021 projects during my college days and I last updated them in March 2021 on my old blog. It’s too old, and I refrain to update anything.
+**/</p>
+
+<p>Brief introduction of freelancing and other:</p>
+
+<h6 id="money-shot-projects-xd">Money-Shot Projects (XD)</h6>
+
+<ul>
+  <li><b>Nokia</b> ———— <ins>Data Science Intern</ins>
+    <ul>
+      <li>Designed application:
+        <ul>
+          <li>To real-time monitor analysis of customer-complaints.</li>
+          <li>To predict &amp; analyze network congestion and performance of an app.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><b>Flipkart</b> ———— <ins>Software Development Intern</ins>
+    <ul>
+      <li>Designed application for automatic signal generation that for automatic Hive logic of conditional data retraction over clusters</li>
+    </ul>
+  </li>
+  <li><b>Removeads</b> ———— <ins>Software Architecture</ins>
+    <ul>
+      <li>Cloud-based ad blocking software backed with DNS sinkhole.
+        <ul>
+          <li>Implemented Automated VPS provisioning and OAuth System</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><b>CSE Deptt @ IIT Delhi</b> ———— <ins>System Admin</ins>
+    <ul>
+      <li>Simulated agentless system management using Ansible
+        <ul>
+          <li>Implemented OAuth server coupled with LDAP</li>
+          <li>Hosted Git server using OAuth for authentication</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<p><br /></p>
+
+<h4 id="cool-freelancing-projects-d">Cool Freelancing Projects (:D)</h4>
+<p>Not mentioning the small scripts and utilities</p>
+
+<ul>
+  <li><a href="https://github.com/techcentaur/IBCR"><b>IBCR</b></a>
+    <ul>
+      <li>Image based content retrieval system</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/techcentaur/Distributed-MST"><b>Distributed MST</b></a>
+    <ul>
+      <li>Implementing Distributed Minimum Spanning Tree With the Help of GHS Distributed algorithm</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/techcentaur/TF-IDF"><b>Inverse Document Indexer</b></a>
+    <ul>
+      <li>Implementation of Term-frequency Inverse-document-frequency and Finding Top K Docs with Cosine Similarity on Vector Space</li>
+    </ul>
+  </li>
+  <li><a href="#"><b>Tagging and Tokenization Based Data Retrieval</b></a>
+    <ul>
+      <li>Implemented system for automatic tagging system for better user-interface controls</li>
+    </ul>
+  </li>
+</ul>
+<hr />
+
+<p><br /></p>
+
+<h4 id="more-cool-projects--toying-with-tech-xd">More Cool Projects // Toying with Tech (XD)</h4>
+
+<ul>
+  <li><a href="https://github.com/techcentaur/DHT">DHT</a>: Distributed Hash Tables (DHT) Implementation // Pastry + Chord</li>
+  <li><a href="https://github.com/techcentaur/poodle-attack">Poodle Attack</a>: Simulating poodle man in the middle attack on SSLv3</li>
+  <li><a href="https://github.com/techcentaur/Bitcoin-Simulation">Bitcoin Simulation
+</a>: Simulating an implementation of complete Bitcoin system with multi-transaction support</li>
+  <li><a href="https://github.com/techcentaur/Data-Envision">Data Envision</a>: Flask web-app to visualize heavy datasets quickly and efficiently using bokeh (datashader).</li>
+  <li><a href="https://github.com/techcentaur/Flocking-Simulation">Flocking Simulation</a>: Simulated flocking of starlings – murmuration – using webGL &amp; openGL shader language in JS..</li>
+  <li><a href="https://github.com/techcentaur/PyLex">PyLex</a>: Performs lexical analysis on words, one word at a time.</li>
+  <li><a href="https://github.com/techcentaur/The-GrandFather">The GrandFather</a>: Text analysis of all dialogues spoken by <em>Rick and Morty</em>; Visualised</li>
+</ul>
+
+<p><br /></p>
+<hr />
+
+<p>And a bunch of other shit, that you can see on my <a href="https://github.com/techcentaur/">github</a>.</p>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+
+:ET

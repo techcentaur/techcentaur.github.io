@@ -3,8 +3,9 @@
   <div class="container">
     <small class="block">
       With <span color="red">&#10084;</span> absurdity <br>
-      &copy; {{ site.author.name }} &middot; {{ site.time | date: '%Y' }} <br>
-      Build on jekyll 4.0.1 <br>
-      &lt;/&gt; Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/heiswayi/thinkspace">Thinkspace theme</a></small>
+      &copy; {{ site.author.name }} {{ site.time | date: '%Y' }} <br>
+      <a href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" target="_blank" class="black-link">Get RSS here</a> (why do you still need RSS, it's 2023 bro)<br>
+      &lt;/&gt; Build on <a href="https://jekyllrb.com/">Jekyll</a> (4.0.1) // forked from <a href="https://github.com/heiswayi/thinkspace">Thinkspace</a><br>
+    </small>
   </div>
 </footer>

@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Portfolio
-permalink: /portfolio/
+title: Projects
+permalink: /projects/
 ---
 
 /** recent **/
 
-(gonna update soon)
+(going to update soon)
 
 ----
 /** Below are pre-2021 projects during my college days and I last updated them in March 2021 on my old blog. It's too old, and I refrain to update anything.
