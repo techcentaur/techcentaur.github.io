@@ -5,9 +5,27 @@
     <description>Minimalist Jekyll theme for technical writing blog.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 Sep 2023 11:38:28 +0530</pubDate>
-    <lastBuildDate>Mon, 25 Sep 2023 11:38:28 +0530</lastBuildDate>
+    <pubDate>Tue, 03 Oct 2023 02:47:53 +0530</pubDate>
+    <lastBuildDate>Tue, 03 Oct 2023 02:47:53 +0530</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Picking Up the Burden</title>
+        <description>&lt;p&gt;I think—now more than ever—that I have to pick up the world on my shoulders. In all its misery, evil, and 
+suffering; I have to pick it up and bear the burden. During bearing the burden, I also have to realize that I am 
+the person who can do it; And therefore deserving of respect. I have never seen an idea more outright inclined to my 
+human nature as of this in all of my years.&lt;/p&gt;
+
+&lt;p&gt;That’s what I intend to do. And in doing that I hope I get better, and people around me get better. A man can only 
+look onto future and bear the present with all its glory. Either with a heavy heart or a 
+light sky, that should be done.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Oct 2023 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2023/Picking-Up/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/Picking-Up/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Fixing and Moving On</title>
@@ -208,26 +226,6 @@ Reflecting on the things that bother you, trying to control people, time, their 
         <guid isPermaLink="true">http://localhost:4000/2020/individual-experience-of-reality/</guid>
         
         <category>journal</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Now It Is a Ghost Town</title>
-        <description>&lt;p&gt;Recently completed the COD4 MW and it was am-azing. The storytelling, intensity, guns, gameplay and music is by-far the best in COD series I’ve seen yet and I’ve not seen it all and so many more COD to go yay! I’ll continue with the next in series a couple of days later, after that I played Watch Dogs 2 but got bored with the concept in just a couple of missions, the whole idea of “hacking” stuff and then exploring the world seems too normative. And I can’t emphasize how much the simple idea of a “free-world” means.&lt;/p&gt;
-
-&lt;p&gt;In books I’ve finished the Brothers Karamazov. What a super dramatic world! In the beginning I was thinking what a long book but at the end I could have read two more equal parts of it, it’s so indulging. I hate that I love drama. Anyway, I started reading Murakami again, this time it is Norwegin Woods.&lt;/p&gt;
-
-&lt;p&gt;“Pandemic Boredom” is there, still, a lot of it. I stay in my holdfast, hours at a time, with nowhere to go. Somehow I’m sleeping a lot more and getting late with the menial essential tasks of life but the laziness persists.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 28 Oct 2020 19:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/now-it-is-a-ghost-town/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/now-it-is-a-ghost-town/</guid>
-        
-        <category>journal</category>
-        
-        <category>pandemic</category>
         
         
       </item>
