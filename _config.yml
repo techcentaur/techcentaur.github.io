@@ -1,6 +1,6 @@
 # Site settings
-title_left    : ""
-title_right   : "Solanki" # default: ""
+title_left    : "Sol"
+title_right   : "Unkey" # default: ""
 description   : "Minimalist Jekyll theme for technical writing blog."
 keywords      : ""
 url           : "" # site url
