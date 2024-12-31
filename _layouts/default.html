@@ -3,16 +3,32 @@ layout: compress
 published: true
 ---
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {% include head.html %}
-
   <body>
-    <main class="wrapper"
-          style="font-family: 'Plus Jakarta Sans', sans-serif !important; width: 50%; margin-left: 25%; margin-right: 25%;">
-      {% include header.html %}
-      {{ content }}
-      {% include footer.html %}
-    </main>
-    {% include foot.html %}
+    <div class="container">
+      <header>
+        <nav>
+          <a href="{{ '/' | prepend: site.baseurl }}" class="site-title">{{ site.title_left }}<span>{{ site.title_right }}</span></a>
+          <div class="nav-links">
+            <a href="{{ '/about' | prepend: site.baseurl }}">About</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        {% if page.url == "/" %}
+          {{ content }}
+        {% else %}
+          <article class="post">
+            {{ content }}
+          </article>
+        {% endif %}
+      </main>
+
+      <footer>
+        <span>© {{ site.time | date: '%Y' }} {{ site.author.name }}</span>
+      </footer>
+    </div>
   </body>
 </html>

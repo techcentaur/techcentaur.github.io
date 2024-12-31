@@ -1,11 +1,12 @@
-<footer class="site-footer">
-  <hr>
-  <div class="container">
-    <small class="block">
-      With <span color="red">&#10084;</span> absurdity <br>
-      &copy; {{ site.author.name }} {{ site.time | date: '%Y' }} <br>
-      <a href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" target="_blank" class="black-link">Get RSS here</a> (why do you still need RSS, it's 2023 bro)<br>
-      &lt;/&gt; Build on <a href="https://jekyllrb.com/">Jekyll</a> (4.0.1) // forked from <a href="https://github.com/heiswayi/thinkspace">Thinkspace</a><br>
-    </small>
+<footer>
+  <div class="footer-content">
+    <div class="footer-text">
+      © {{ site.time | date: '%Y' }} {{ site.author.name }}
+      <span class="separator">•</span>
+      <a href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" target="_blank">RSS</a>
+    </div>
+    <div class="footer-meta">
+      Built with <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>
+    </div>
   </div>
 </footer>

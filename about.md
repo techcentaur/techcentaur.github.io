@@ -4,19 +4,18 @@ title: About
 permalink: /about/
 ---
 
-Hey, I'm Ankit Solanki. 24, currently living in Bangalore, India.
+Hi, I'm Ankit Solanki. I'm a software developer and AI engineer currently working at Polymer.
 
-Currently
-- Working @[Polymer](https://polymersearch.com/) as Algorithmic developer and AI engineer, building analysis engine. I joined Polymer as an early employee.
-  - Using GOlang to efficiently build and scale the engine.
-  - Using Python to build pipeline for LLM based systems.
+### Connect
+- [GitHub](https://github.com/techcentaur) - Check out my open-source projects and contributions
+- [LinkedIn](https://www.linkedin.com/in/ankitsolanki03) - For my professional background and experience
+- [Twitter](https://x.com/aeperpetually) - Follow me for tech thoughts and updates
 
-(will update more here in due time).
+### Projects
+For my work and projects, head over to my [GitHub profile](https://github.com/techcentaur). You'll find:
+- Open source contributions
+- Personal projects
+- Technical experiments
 
-I have not yet, and do not intend to work at any corporate job.
-I have different standards for product value creation, build, shipment, and scale.
-I tend to work better with self-authority or with like-minded people.
-
-I obv have interests outside computer that I continually pursue, and that I refrain from listing here, this website is for the ease of my internet persona.
-
-Feel free to [mail me](mailto:ankit03june@gmail.com). I reply to all emails (<7 days).
+### Writing
+I write about technology, software development, and occasional musings. You can find all my posts on the [home page](/).

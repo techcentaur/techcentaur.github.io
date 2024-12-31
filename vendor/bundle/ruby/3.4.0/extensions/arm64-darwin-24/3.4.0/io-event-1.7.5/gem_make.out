@@ -1,0 +1,36 @@
+current directory: /Users/solanki/Self/techcentaur.github.io/vendor/bundle/ruby/3.4.0/gems/io-event-1.7.5/ext
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for rb_ext_ractor_safe()... yes
+checking for &rb_fiber_transfer()... yes
+checking for -luring... no
+checking for sys/epoll.h... no
+checking for sys/event.h... yes
+checking for sys/wait.h... yes
+checking for sys/eventfd.h... no
+checking for rb_io_descriptor()... yes
+checking for &rb_process_status_wait()... yes
+checking for rb_fiber_current()... yes
+checking for &rb_fiber_raise()... yes
+checking for epoll_pwait2()... no
+checking for ruby/io/buffer.h... yes
+creating extconf.h
+creating Makefile
+
+current directory: /Users/solanki/Self/techcentaur.github.io/vendor/bundle/ruby/3.4.0/gems/io-event-1.7.5/ext
+make DESTDIR\= sitearchdir\=./.gem.20241231-55126-m1z6kp sitelibdir\=./.gem.20241231-55126-m1z6kp clean
+
+current directory: /Users/solanki/Self/techcentaur.github.io/vendor/bundle/ruby/3.4.0/gems/io-event-1.7.5/ext
+make DESTDIR\= sitearchdir\=./.gem.20241231-55126-m1z6kp sitelibdir\=./.gem.20241231-55126-m1z6kp
+compiling ./io/event/event.c
+compiling ./io/event/selector/selector.c
+compiling ./io/event/selector/kqueue.c
+compiling ./io/event/interrupt.c
+linking shared-object IO_Event.bundle
+ld: warning: dylib (/opt/homebrew/Cellar/ruby/3.4.1/lib/libruby.3.4.dylib) was built for newer macOS version (15.0) than being linked (13.3)
+
+current directory: /Users/solanki/Self/techcentaur.github.io/vendor/bundle/ruby/3.4.0/gems/io-event-1.7.5/ext
+make DESTDIR\= sitearchdir\=./.gem.20241231-55126-m1z6kp sitelibdir\=./.gem.20241231-55126-m1z6kp install
+/usr/bin/install -c -m 0755 IO_Event.bundle ./.gem.20241231-55126-m1z6kp
+
+current directory: /Users/solanki/Self/techcentaur.github.io/vendor/bundle/ruby/3.4.0/gems/io-event-1.7.5/ext
+make DESTDIR\= sitearchdir\=./.gem.20241231-55126-m1z6kp sitelibdir\=./.gem.20241231-55126-m1z6kp clean

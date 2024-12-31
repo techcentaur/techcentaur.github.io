@@ -1,17 +1,11 @@
-<style>
-  .black-link {
-    color: black !important;
-  }
-</style>
-<nav class="nav">
-  <div class="container">
-    <h1 class="logo"><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ site.title_left }}<span>{{ site.title_right }}</span></a></h1>
-    <ul class="navbar">
-      <li><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}" class="black-link">About</a></li>
-      <li><a href="{{ '/projects' | prepend: site.baseurl | prepend: site.url }}" class="black-link">Projects</a></li>
-      <li><a href="https://github.com/techcentaur" target="_blank" class="black-link"><i class="fab fa-github"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/ankitsolanki03" target="_blank" class="black-link"><i class="fab fa-linkedin"></i></a></li>
-      <li><a href="https://x.com/aeperpetually" target="_blank" class="black-link"><i class="fab fa-twitter"></i></a></li>
-    </ul>
+<nav>
+  <div class="nav-content">
+    <a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}" class="logo">{{ site.title_left }}<span>{{ site.title_right }}</span></a>
+    <div class="nav-links">
+      <a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About</a>
+      <a href="https://github.com/techcentaur" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/ankitsolanki03" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://x.com/aeperpetually" target="_blank" rel="noopener">X</a>
+    </div>
   </div>
 </nav>
