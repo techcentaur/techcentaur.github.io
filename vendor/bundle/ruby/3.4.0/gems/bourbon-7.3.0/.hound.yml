@@ -1,8 +1,0 @@
-ruby:
-  enabled: true
-scss:
-  enabled: false
-stylelint:
-  config_file: .stylelintrc.json
-  enabled: true
-  # version: 10.1.0
