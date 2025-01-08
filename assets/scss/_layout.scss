@@ -29,6 +29,7 @@ body {
 
 body {
   background-color: $base-background-color;
+  text-transform: lowercase;
 }
 
 hr {
@@ -98,6 +99,7 @@ hr {
   font-size: 20px;
   line-height: 28px;
   font-weight: 300;
+  text-transform: lowercase;
 
   span {
     font-weight: 700;
@@ -115,6 +117,7 @@ hr {
   padding: 0;
   pointer-events: all;
   cursor: pointer;
+  text-transform: lowercase;
 
   li {
     display: inline-block;
@@ -160,7 +163,7 @@ hr {
 
 .post-meta {
   color: $medium-gray-color;
-  text-transform: uppercase;
+  text-transform: lowercase;
   display: inline-block;
   letter-spacing: 1px;
   font-size: rem(14);

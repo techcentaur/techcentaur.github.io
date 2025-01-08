@@ -27,6 +27,7 @@ body {
   color: $color-text;
   background: $color-bg;
   -webkit-font-smoothing: antialiased;
+  text-transform: lowercase;
 }
 
 // Layout
@@ -280,6 +281,7 @@ header {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   line-height: 1.3;
+  text-transform: lowercase;
 }
 
 p {
@@ -488,10 +490,11 @@ footer {
     margin-bottom: 2rem;
     
     .post-meta {
-      display: block;
-      font-size: 0.9rem;
       color: $color-light-gray;
-      margin-bottom: 0.5rem;
+      text-transform: lowercase;
+      display: block;
+      margin-bottom: 0.2rem;
+      letter-spacing: 0.02em;
     }
 
     .post-title {
