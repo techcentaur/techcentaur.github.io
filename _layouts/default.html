@@ -1,34 +1,45 @@
 ---
 layout: compress
-published: true
 ---
+
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <a href="/" class="site-title">Ankit <span>Solanki</span></a>
+      <div class="nav-links">
+        <a href="/about">About</a>
+        <a href="/blog">Blog</a>
+        <a href="/fiction">Fiction</a>
+        <a href="/projects">Projects</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer>
     <div class="container">
-      <header>
-        <nav>
-          <a href="{{ '/' | prepend: site.baseurl }}" class="site-title">{{ site.title_left }}<span>{{ site.title_right }}</span></a>
-          <div class="nav-links">
-            <a href="{{ '/about' | prepend: site.baseurl }}">About</a>
-          </div>
-        </nav>
-      </header>
-
-      <main>
-        {% if page.url == "/" %}
-          {{ content }}
-        {% else %}
-          <article class="post">
-            {{ content }}
-          </article>
-        {% endif %}
-      </main>
-
-      <footer>
-        <span>© {{ site.time | date: '%Y' }} {{ site.author.name }}</span>
-      </footer>
+      <div class="footer-content">
+        <span>&copy; {{ site.time | date: '%Y' }} Ankit Solanki</span>
+        <span class="separator">•</span>
+        <a href="https://github.com/techcentaur" target="_blank">GitHub</a>
+        <span class="separator">•</span>
+        <a href="https://linkedin.com/in/ankitsolanki" target="_blank">LinkedIn</a>
+      </div>
     </div>
-  </body>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="{{ "/assets/js/slideshow.js" | prepend: site.baseurl }}"></script>
+</body>
 </html>

@@ -1,11 +1,7 @@
 ---
-date: 'Jan 04 2021 21:00:00 GMT+0530 (India Standard Time)'
+layout: post
 title: 'Indian English Poetry: A Course I Took This Semester'
-showcase: true
-journal: true
-tags: 
-  - course
-  - poetry
+keywords: ""
 ---
 
 I took a course on Indian English Poetry (HUL240) this semester. I had to talk about my experience in the last class, so I thought I'd post here too.

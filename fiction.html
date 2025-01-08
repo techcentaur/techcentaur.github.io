@@ -1,0 +1,23 @@
+---
+layout: page
+title: Fiction
+permalink: /fiction/
+---
+
+<div class="fiction-intro">
+  <p>Stories, excerpts, and literary experiments. Some complete, some fragments.</p>
+</div>
+
+<div class="fiction-list">
+  {% for post in site.posts %}
+    {% if post.type == 'fiction' %}
+    <article class="post-item">
+      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+      <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+      {% if post.excerpt %}
+      <p class="excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      {% endif %}
+    </article>
+    {% endif %}
+  {% endfor %}
+</div> 

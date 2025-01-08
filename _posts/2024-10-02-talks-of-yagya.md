@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'Talks of Yagya - Looking at Past'
+description: ""
+keywords: ""
+type: fiction
+---
+
+First Talk. 2nd of October, 2024 @2:30pm. Directly spoken in Room 302, Old Town Address of Raghuvan Editor's Room (unedited). Recorded in present of Yagya Ravishastri.
+
+Chapter I.
+
+I have always hated the sound of clutter, the noise, you know, it gets on my nerves. It distracts me. Noise in the non-usual sense; noise not necessarily entails loudness, a linguistic remark that I often mention in front of my friends, noise can be by any unpleasant sound that causes distrubance.  Usually, it is loud ofcourse but sometimes it can even be the slowest silent flow of water falling down the drain as I wash my hand five or six times and pour all of it on the procelian of the sink. That water sound bothers me. "I feel weird even talking ahout it, can I say something like that? Okay, thanks." Clutter doesn't always have to come from outside; the overwhelming feeling of being the only unlucky one in every situation, I have fought with that all my life; that is also a clutter to me. "I feel like I need to soften it, do I need to soften it? I feel it's a bit harsh. No? Is it not? Are you sure? Thanks, thanks."
+
+What keeps me sane is taking an impersonal view and pitying the overall human condition. Among all the anger, and sentimentality related; every life shares its own measure of sorrow and sadness. "Is that too abstract, Yagya? Yes? Well, what should I do? Ohh tell my own story. Okay, okay, thanks." It feels like I'm on the extreme end of life, all sorrow and all sadness, with sips of coffee in between. "I'm gonna ease into it Yagya, is that okay? Thanks." And I don't know, it seems some people are born this way. They bruise faster and they yearn longer. I've met so many people and not even one could capture even a mild percent of what I carry everyday, and they tell me, you seem so content. 
+
+And... "Can I say her name? Yeah, thanks." She was like everyone else, but of course, extremely different to me. The sun that burns me, it warmed her. "Warmed? What do you mean?" "Oh, yeah, she died, that's why. No, no, it's okay. It's been about a year. Yeah, I’m okay, thanks. No I am really okay." It’s crazy how the same thing can affect two people so differently. "Should I say it in present tense? I mean, now that I think about it, I don’t want to say it in the past. I might get questions in mail or something, questions related to her and I do not want to answer it. Okay! Thanks. Yeah, thanks. Well yeah I'll mention a few stories around, thanks."
+
+"Can I start again? This time I'm going to ask fewer questions Yagya, and should I say I phrase it better? Yeah, okay." The sun that kissed her is what I see first thing in the morning, and that bothers me. "Wait, no, I’m going to say that again, a bit more poetically. Is that alright?" "Yeah, thanks, I’ll share only a bit. Yeah, I can’t overshare; a few personal memories are all that’s left of her. I can maybe say it differently, you know, distort it. Is that fine?" "No, I mean, I don’t really care how people perceive it. Okay, thanks."
+
+With a grace stolen from the Old Gods no one remembers, I watch her laughing—like life’s some big joke, like she’s blessed and untouchable. The same sun that burns me wraps her up in a warm embrace, and here I am, still trying to find one pathetic reason to justify any of this. In the process, I lose myself—because yeah, that’s what happens when you try to make sense of a life that’s nothing but chaos. Language? Ha, language is just a broken tool people use to scream at each other, never to understand anything real. It’s incomplete, just like all those smug idiots who think writing down their garbage thoughts makes them superior. All of them, with their scribbled nonsense about love and life like they’ve got it figured out. “Meditate on your feelings,” they say. “It gets easier.” Yeah, sure, let me just zen my way out of this mess. I’m done. I’m not debating anymore. Next time one of these know-it-all fools tries to sell me that crap, I’ll break their nose. That’ll be my argument. And when their nose is bleeding, maybe they’ll finally get it—the world doesn’t care about your meditations, your empty words, or your pretentious self-help. Life’s a punch in the face, not a page in your sad little journal. Look at them, fucking arrogant pricks. They write down, oh life is sad, and then they take a little sip from their coffee and lit up a cigratte and look midly upsetting with their frowing face, sitting in their leather worn-out comfortable little bubbles, pretending they understand pain; hide behind their books and podcasts, their feel-good speeches about “inner peace” and “mindfulness,” thinking they’re above the rest of us, like they know it. That's what their skpecticm and cynicism has got them, they think they know it all, and this gives them a superior feeling, an edge they think. And I hate that—hate it more than anything. The arrogance, the sheer nerve of them acting like their words mean anything in the real world. 
+
+"Ah, I can’t do this, Yagya. I don’t think I can. These things, man, they’re unsayable. Can I take a break? I don't know, let me go and smoke some and I’ll be back. Otherwise, I just can’t. I just can’t. Yeah, I’ll be back."
+
+----------
+
+Chapter Two, Three and Four, are going to die in my drafts - Solanki.

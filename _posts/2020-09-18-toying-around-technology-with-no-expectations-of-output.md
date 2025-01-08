@@ -1,12 +1,7 @@
 ---
-date: 'Sep 18 2020 7:00:00 GMT+0530 (India Standard Time)'
+layout: post
 title: 'Toying Around Technology With No Expectations of Output'
-showcase: true
-journal: true
-tags: 
-  - technology
-  - toying
-  - feynman
+keywords: ""
 ---
 
 It was evident very early to me but I found it difficult to implement in real life.

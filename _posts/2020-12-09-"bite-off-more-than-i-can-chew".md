@@ -1,11 +1,7 @@
 ---
-date: 'Dec 09 2020 16:00:00 GMT+0530 (India Standard Time)'
+layout: post
 title: '"Bite Off More Than I Can Chew"'
-showcase: true
-journal: true
-tags: 
-  - george r r martin
-  - asoiaf
+keywords: ""
 ---
 
 Listening to George R R Martin speak in a clean manner got me wondering how much complexity his books contain on an intentional level. 

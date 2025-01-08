@@ -1,11 +1,7 @@
 ---
-date: 'Oct 28 2020 19:00:00 GMT+0530 (India Standard Time)'
+layout: post
 title: 'Now It Is a Ghost Town'
-showcase: false
-journal: true
-tags: 
-  - journal
-  - pandemic
+keywords: ""
 ---
 
 Recently completed the COD4 MW and it was am-azing. The storytelling, intensity, guns, gameplay and music is by-far the best in COD series I've seen yet and I've not seen it all and so many more COD to go yay! I'll continue with the next in series a couple of days later, after that I played Watch Dogs 2 but got bored with the concept in just a couple of missions, the whole idea of "hacking" stuff and then exploring the world seems too normative. And I can't emphasize how much the simple idea of a "free-world" means.

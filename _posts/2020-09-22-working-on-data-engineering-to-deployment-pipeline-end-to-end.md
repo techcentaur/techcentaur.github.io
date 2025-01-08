@@ -1,12 +1,7 @@
 ---
-date: 'Sep 22 2020 16:00:00 GMT+0530 (India Standard Time)'
+layout: post
 title: 'Working on Data Engineering to Deployment Pipeline End-To-End '
-showcase: true
-journal: true
-tags: 
-  - aws
-  - data-analysis
-  - vue
+keywords: ""
 ---
 
 Recently started an arguably new part-time freelancing project that involves work which can be said to lay in the range of data-engineering to deployment on AWS bucket. Meaning analysis of data and supplying it in a pipeline that would reflect the ideals in the best format onto a Vue.js based front-end framework ultimately based on AWS infrastructure. Though after a dope introduction with React and Node, I now find JS frameworks pretty aesthetic. (Am I right? From weakly-typed to aesthetic; "the times they're a-changin'".)

@@ -1,11 +1,7 @@
 ---
-date: 'Dec 30 2020 21:00:00 GMT+0530 (India Standard Time)'
+layout: post
 title: 'The End of a Cold Year'
-showcase: true
-journal: true
-tags: 
-  - winter
-  - summer
+keywords: ""
 ---
 
 This year—2020—has been a long and a cold year. Long: for the troubles it brought, for the days when something reckless wriggles in you, for the times when mind seems a bit tad distracted, for some things that are lost forever in the translation; and cold: for the situations it got me in, for the ideas that went through my head, and for some things that I find easier to forget than to say. One can look up in the sky and think that it will get over soon but it doesn't, not so easily—no. It's something like war, when war occurs people say that "it's stupid, it'll end soon," but it doesn't. It goes on, taking a major portion of lifetimes out of it. I think Camus said it. But as cold as it may seem, things do end; a bit different but they always do. I give the argument of finiteness for it. And I lay back with a smile on my face for that gives me an insane amount of happiness; just the finite bound of it. Oh what a thing to say!

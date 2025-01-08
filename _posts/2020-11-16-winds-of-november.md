@@ -1,10 +1,7 @@
 ---
-date: 'Nov 16 2020 23:00:00 GMT+0530 (India Standard Time)'
+layout: post
 title: 'Winds of November'
-showcase: false
-journal: true
-tags: 
-  - 
+keywords: ""
 ---
 
 Half of November passed in an instant, rather unpleasant as of the relativity. Winter is here, which reminds me George R R Martin updated what's going on in Westeros, and he gave me more hope for Winds and Winter release, it's been almost 10 years (just to remind.) Pretty sure it'll cross 1500 pages and that it will be divided into two books. And interpolating linearly the amount of plots and subplots he created, it might take him almost 3 more books to cover everything. I don't think much about it though, the miserable kinda get me down.

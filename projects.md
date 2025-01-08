@@ -4,64 +4,84 @@ title: Projects
 permalink: /projects/
 ---
 
-/** recent **/
+{: .projects-page}
 
-(going to update soon)
+<style>
+.tag {
+  display: inline-block;
+  padding: 4px 8px;
+  margin: 0 4px;
+  border-radius: 16px;
+  background-color: #f0f0f0;
+  color: #666;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+</style>
 
-----
-/** Below are pre-2021 projects during my college days and I last updated them in March 2021 on my old blog. It's too old, and I refrain to update anything.
-**/
+<div class="microsaas-section">
+  <h2>MicroSaaS</h2>
+  <br>
+  <div class="microsaas-item"  style="margin-left: 2rem;">
+    <h3><a href="https://garudinsights.com">Garud Insights</a></h3>
+    <p class="project-highlight"  style="margin-left: 2rem;">AI-powered market intelligence platform transforming information overload into actionable insights for Indian traders.</p>
+  </div>
+  <br>
+  <div class="microsaas-item"  style="margin-left: 2rem;">
+    <p class="project-highlight"  style="margin-left: 2rem;">Coming Soon. 3 more SaaS in pipeline.</p>
+  </div>
+</div>
 
-Brief introduction of freelancing and other:
+### Engineering Projects
 
-###### Money-Shot Projects (XD)
+<div class="engineering-section" style="margin-left: 1rem;">
+  <div class="engineering-item">
+    <div>
+      <a href="https://github.com/techcentaur/gobatch">⚡ gobatch</a>
+      <p style="margin-left: 1rem;">Golang package for efficient and robust rate-limited concurrent batch processing. Built for high-performance distributed systems.</p>
+      <div class="tech-tags">
+        <span class="tag">golang</span>
+        <span class="tag">concurrency</span>
+        <span class="tag">distributed-systems</span>
+      </div>
+    </div>
+  </div>
 
-- <b>Nokia</b> ------------ <ins>Data Science Intern</ins>
-  - Designed application:
-    - To real-time monitor analysis of customer-complaints.
-    - To predict & analyze network congestion and performance of an app.
-- <b>Flipkart</b> ------------ <ins>Software Development Intern</ins>
-  - Designed application for automatic signal generation that for automatic Hive logic of conditional data retraction over clusters
-- <b>Removeads</b> ------------ <ins>Software Architecture</ins>
-  - Cloud-based ad blocking software backed with DNS sinkhole.
-    - Implemented Automated VPS provisioning and OAuth System
-- <b>CSE Deptt @ IIT Delhi</b> ------------ <ins>System Admin</ins>
-  - Simulated agentless system management using Ansible
-    - Implemented OAuth server coupled with LDAP
-    - Hosted Git server using OAuth for authentication
+  <div class="engineering-item">
+    <div>
+      <a href="https://github.com/techcentaur/batsync">🔄 batsync</a>
+      <p style="margin-left: 1rem;">Python async manager for rate-limited batch operations. Optimized for handling large-scale concurrent tasks.</p>
+      <div class="tech-tags">
+        <span class="tag">python</span>
+        <span class="tag">async</span>
+        <span class="tag">rate-limiting</span>
+      </div>
+    </div>
+  </div>
 
-<hr>
-<br>
+  <div class="engineering-item">
+    <div>
+      <a href="https://github.com/techcentaur/Bitcoin-Simulation">₿ Bitcoin Simulation</a>
+      <p style="margin-left: 1rem;">Complete Bitcoin system implementation from scratch with multi-transaction support. Built for deep understanding of blockchain mechanics.</p>
+      <div class="tech-tags">
+        <span class="tag">blockchain</span>
+        <span class="tag">cryptography</span>
+        <span class="tag">distributed-ledger</span>
+      </div>
+    </div>
+  </div>
 
-#### Cool Freelancing Projects (:D)
-Not mentioning the small scripts and utilities
+  <div class="engineering-item">
+    <div>
+      <a href="https://github.com/techcentaur/Flocking-Simulation">✨ Flocking Simulation</a>
+      <p style="margin-left: 1rem;">WebGL simulation of starling murmuration using OpenGL shaders. A beautiful intersection of graphics programming and natural phenomena.</p>
+      <div class="tech-tags">
+        <span class="tag">webgl</span>
+        <span class="tag">graphics</span>
+        <span class="tag">simulation</span>
+      </div>
+    </div>
+  </div>
+</div>
 
-- [<b>IBCR</b>](https://github.com/techcentaur/IBCR)
-  - Image based content retrieval system
-- [<b>Distributed MST</b>](https://github.com/techcentaur/Distributed-MST)
-  - Implementing Distributed Minimum Spanning Tree With the Help of GHS Distributed algorithm
-- [<b>Inverse Document Indexer</b>](https://github.com/techcentaur/TF-IDF)
-  - Implementation of Term-frequency Inverse-document-frequency and Finding Top K Docs with Cosine Similarity on Vector Space
-- [<b>Tagging and Tokenization Based Data Retrieval</b>](#)
-  - Implemented system for automatic tagging system for better user-interface controls
-<hr>
-<br>
-
-#### More Cool Projects // Toying with Tech (XD)
-
-- [DHT](https://github.com/techcentaur/DHT): Distributed Hash Tables (DHT) Implementation // Pastry + Chord
-- [Poodle Attack](https://github.com/techcentaur/poodle-attack): Simulating poodle man in the middle attack on SSLv3
-- [Bitcoin Simulation
-](https://github.com/techcentaur/Bitcoin-Simulation): Simulating an implementation of complete Bitcoin system with multi-transaction support
-- [Data Envision](https://github.com/techcentaur/Data-Envision): Flask web-app to visualize heavy datasets quickly and efficiently using bokeh (datashader).
-- [Flocking Simulation](https://github.com/techcentaur/Flocking-Simulation): Simulated flocking of starlings -- murmuration -- using webGL & openGL shader language in JS..
-- [PyLex](https://github.com/techcentaur/PyLex): Performs lexical analysis on words, one word at a time.
-- [The GrandFather](https://github.com/techcentaur/The-GrandFather): Text analysis of all dialogues spoken by _Rick and Morty_; Visualised
-
-<br>
-<hr>
-
-And a bunch of other shit, that you can see on my [github](https://github.com/techcentaur/).
-
-<!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+<p class="note" style="font-style: italic;">More projects being added as they move from private to public repositories.</p>

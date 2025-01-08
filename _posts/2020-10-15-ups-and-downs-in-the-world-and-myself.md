@@ -1,10 +1,7 @@
 ---
-date: 'Oct 15 2020 23:00:00 GMT+0530 (India Standard Time)'
+layout: post
 title: 'Ups and Downs in the World and Myself'
-showcase: false
-journal: true
-tags: 
-  - journal
+keywords: ""
 ---
 
 Purpose of the Journal is to write whatever one want to write in an organized manner, though I wonder if I do that already "more personally" among my notes then why do I write here? I can't find an answer, I am just super bored. So here's another journal.

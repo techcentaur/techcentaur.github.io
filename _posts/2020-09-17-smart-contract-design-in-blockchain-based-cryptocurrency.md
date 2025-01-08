@@ -1,12 +1,7 @@
 ---
-date: 'Sep 17 2020 2:00:00 GMT+0530 (India Standard Time)'
+layout: post
 title: 'Smart Contract Design in Blockchain-Based Cryptocurrency'
-showcase: true
-journal: false
-tags: 
-  - bitcoin
-  - smart contract
-  - blockchain
+keywords: ""
 ---
 
 Ever since I had to implement a full-fledged [bitcoin simulation](https://github.com/techcentaur/Bitcoin-Simulation) almost exactly similar to actual cryptocurrency in my Advanced Distributed Systems class a couple of months ago, I was thinking about how to introduce a series of smart contracts in any Blockchain based system. Now it seems like I understand how the design is going to work, so I'll just summarize it here.

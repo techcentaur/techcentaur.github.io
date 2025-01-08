@@ -1,11 +1,7 @@
 ---
-date: 'Nov 22 2020 18:00:00 GMT+0530 (India Standard Time)'
+layout: post
 title: 'The Madlad Who Wont Use the Letter F'
-showcase: true
-journal: true
-tags: 
-  - madlad
-  - reddit
+keywords: ""
 ---
 
 Today the main page of Reddit is covered with the absolute madness of a reddit user: [u/IHateTheLetterF](https://www.reddit.com/user/IHateTheLetterF).

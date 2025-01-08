@@ -1,11 +1,7 @@
 ---
-date: 'Sep 16 2020 19:00:00 GMT+0530 (India Standard Time)'
+layout: post
 title: 'Purchasing Domain Name for this Website'
-showcase: true
-journal: true
-tags: 
-  - domain
-  - website
+keywords: ""
 ---
 
 This would be the third template for my personal minimalistic blog design that I am trying. 

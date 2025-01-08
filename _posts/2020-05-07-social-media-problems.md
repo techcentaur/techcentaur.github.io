@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Quaratine-Usage of Social Media is Getting on my Nerves! + First Journal'
-description: ""
 keywords: ""
 ---
 

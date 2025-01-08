@@ -1,10 +1,7 @@
 ---
-date: 'Oct 20 2020 23:00:00 GMT+0530 (India Standard Time)'
+layout: post
 title: 'Games, Books, and Dealing With the Lockdown'
-showcase: false
-journal: true
-tags: 
-  - lockdown
+keywords: ""
 ---
 
 The majority of the past week has been fun. I completed NFS Payback and Heat, both were good and enjoyable, though they went too hard on drag and drift races, a couple of them are fine, maybe in side contests, but covering 40% of the tasks with drifts doesn't make much sense. There is the need for SPEED not GOOD TIRES.

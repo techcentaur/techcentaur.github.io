@@ -1,12 +1,7 @@
 ---
-date: 'Dec 07 2020 13:00:00 GMT+0530 (India Standard Time)'
+layout: post
 title: 'How Different Ironborn Are From First Men'
-showcase: true
-journal: true
-tags: 
-  - asoiaf
-  - first men
-  - ironborn
+keywords: ""
 ---
 
 I feel like Ironborn are very different than First Men in multiple aspects. As the books suggest, First Men when explored Westeros starting from South to North, some of them discovered Iron Islands and lived there, which then later got called as Ironmen but a lot of things contradict with this assumption.

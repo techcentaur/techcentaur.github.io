@@ -1,22 +1,57 @@
 ---
 layout: default
-title: Home
 ---
 
-{% for post in site.posts %}
-  <article class="post">
-    <div class="post-header">
-      <h2 class="post-title">
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+<div class="home">
+  <section class="intro">
+    <div class="slideshow">
+      <img src="/assets/images/mec1.png" alt="Slideshow Image 1" class="slide active">
+      <img src="/assets/images/mec2.png" alt="Slideshow Image 2" class="slide">
+      <img src="/assets/images/mec3.png" alt="Slideshow Image 3" class="slide">
+      <img src="/assets/images/mec4.png" alt="Slideshow Image 4" class="slide">
     </div>
+    <h1>hi, i'm ankit (— kush)</h1>
+    <p>here I write about my work, engineering, personal events, fiction and philosophy.</p>
+    <div class="contact-button">
+      <a href="mailto:ankit@solanki.dev" class="mail-link">send message</a>
+      <span class="response-time">likely reply in &lt;24 hours unless winds of winter is published</span>
+    </div>
+  </section>
 
-    {% if post.description %}
-    <div class="post-content">
-      {{ post.description }}
-      <p><a href="{{ post.url | prepend: site.baseurl }}">Read more →</a></p>
-    </div>
-    {% endif %}
-  </article>
-{% endfor %}
+  <section class="home-nav">
+    <a href="/about" class="nav-item">
+      <h2>About</h2>
+      <p>?</p>
+    </a>
+    <a href="/blog" class="nav-item">
+      <h2>Blog</h2>
+      <p>Personal thoughts</p>
+    </a>
+    <a href="/fiction" class="nav-item">
+      <h2>Fiction</h2>
+      <p>Self-written stories</p>
+    </a>
+    <a href="/projects" class="nav-item">
+      <h2>Engineering</h2>
+      <p>MicroSaaS and Tech</p>
+    </a>
+  </section>
+
+  <section class="recent-posts">
+    <h2 class="section-title">Recent Posts</h2>
+    {% assign non_fiction_posts = site.posts | where_exp: "post", "post.type != 'fiction'" %}
+    {% for post in non_fiction_posts limit:5 %}
+    <article class="post-item">
+      <span class="post-meta">
+        <span class="post-type">{% if post.type %}{{ post.type }}{% else %}blog{% endif %}</span> •
+        {{ post.date | date: "%B %-d, %Y" }}
+      </span>
+      <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+    </article>
+    {% endfor %}
+  </section>
+
+  <div class="all-posts-link">
+    <a href="/blog">View All Articles →</a>
+  </div>
+</div>
