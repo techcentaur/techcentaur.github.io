@@ -12,7 +12,4 @@ Likes remote work, digital nomad, and carrying regrets.
 
 Literature keeps me sane — I extensively read and occasionally write fiction. [I post excerpts here](/fiction); but do not post full.
 
-
-You'll find links in the footer to connect with me.
-
-> "I have no enemies."
+Do you know me? How well? [Can you answer these questions?](/riddles)
