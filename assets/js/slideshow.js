@@ -29,7 +29,7 @@
     showSlide(0);
 
     // Start the slideshow
-    const interval = setInterval(nextSlide, 1000);
+    const interval = setInterval(nextSlide, 400);
 
     // Preload images
     slides.forEach((slide) => {
