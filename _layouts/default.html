@@ -13,12 +13,25 @@ layout: compress
 <body>
   <header>
     <nav class="container">
-      <a href="/" class="site-title">Ankit <span>Solanki</span></a>
+      <a href="/" class="site-title">
+        <div class="name-rotator" style="color: black; padding: 0 !important; margin: 0 !important;">
+          <span class="rotating-text current" style="color: black; padding: 0 !important; margin: 0 !important;">Ankit</span>
+          <span class="rotating-text" style="color: black; padding: 0 !important; margin: 0 !important;">Kush</span>
+        </div>
+        <span style="color: #00bfff; transform: translateY(-5px); padding: 0 !important; margin: 0 !important;">Solanki</span>
+      </a>
       <div class="nav-links">
-        <a href="/about">about</a>
-        <a href="/blog">blog</a>
-        <a href="/fiction">fiction</a>
-        <a href="/projects">projects</a>
+        <a href="/about">About</a>
+        <span class="separator">•</span>
+        <a href="/blog">Blog</a>
+        <span class="separator">•</span>
+        <a href="/fiction">Fiction</a>
+        <span class="separator">•</span>
+        <a href="/projects">Engineering</a>
+        <span class="separator">•</span>
+        <!-- <a href="/ai-services">AI Services</a> -->
+        <!-- <span class="separator">•</span> -->
+        <a href="/mentor">Mentorship Program</a>
       </div>
     </nav>
   </header>
@@ -29,19 +42,32 @@ layout: compress
 
   <footer>
     <div class="container">
-      <div class="footer-content">
+      <div class="footer-text">
         <span>&copy; {{ site.time | date: '%Y' }} Ankit Solanki</span>
-        <span class="separator">•</span>
+      </div>
+      <div class="footer-content">
         <a href="https://github.com/techcentaur" target="_blank">GitHub</a>
         <span class="separator">•</span>
-        <a href="https://linkedin.com/in/ankitsolanki03" target="_blank">LinkedIn</a>
+        <a href="https://linkedin.com/in/ankitsolanki03" target="_blank">LinkedIn (reluctantly)</a>
+        <span class="separator">•</span>
+        <a href="https://instagram.com/un.key.it" target="_blank">Instagram (really?)</a>
+        <span class="separator">•</span>
+        <a href="mailto:ankit03june@gmail.com">Email</a>
+        <span class="separator">•</span>
+        <a href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" target="_blank">RSS</a>
       </div>
     </div>
+    <div class="footer-content">
+      <div class="footer-meta">
+        Built with <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>
+      </div>
+    </div>  
   </footer>
 
   <!-- Scripts -->
   <script src="{{ "/assets/js/slideshow.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/riddle-answers.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/riddles.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/assets/js/name-rotator.js" | prepend: site.baseurl }}"></script>
 </body>
 </html>

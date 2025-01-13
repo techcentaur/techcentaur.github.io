@@ -4,13 +4,57 @@ title: Blog
 permalink: /blog/
 ---
 
+<div class="blog-header">
+  <div class="feeling-lucky">
+    <a href="#" onclick="openRandomPost(event)" class="lucky-button">I'm Feeling Lucky ✨</a>
+  </div>
+</div>
+
 <div class="blog-list">
   {% for post in site.posts %}
     {% if post.type != 'fiction' %}
-    <article class="post-item">
+    <article class="post-item" data-post-url="{{ post.url | prepend: site.baseurl }}">
       <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
       <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
     </article>
     {% endif %}
   {% endfor %}
-</div> 
+</div>
+
+<script>
+function openRandomPost(e) {
+  e.preventDefault();
+  const posts = document.querySelectorAll('.post-item');
+  const randomPost = posts[Math.floor(Math.random() * posts.length)];
+  const postUrl = randomPost.dataset.postUrl;
+  window.location.href = postUrl;
+}
+</script>
+
+<style>
+.blog-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.lucky-button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #111111;
+  color: white;
+  border-radius: 30px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.lucky-button:hover {
+  background-color: #333333;
+  transform: translateY(-1px);
+  text-decoration: none;
+  color: white;
+}
+</style> 

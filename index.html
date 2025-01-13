@@ -4,64 +4,90 @@ layout: default
 
 <div class="home">
   <section class="intro">
-    <div class="slideshow">
-      <img src="/assets/images/mec1.png" alt="Slideshow Image 1" class="slide active">
-      <img src="/assets/images/mec2.png" alt="Slideshow Image 2" class="slide">
-      <img src="/assets/images/mec3.png" alt="Slideshow Image 3" class="slide">
-      <img src="/assets/images/mec4.png" alt="Slideshow Image 4" class="slide">
-      <img src="/assets/images/mec5.png" alt="Slideshow Image 5" class="slide">
-      <img src="/assets/images/mec6.png" alt="Slideshow Image 6" class="slide">
-      <img src="/assets/images/mec7.png" alt="Slideshow Image 7" class="slide">
-      <img src="/assets/images/mec8.png" alt="Slideshow Image 8" class="slide">
-      <img src="/assets/images/mec9.png" alt="Slideshow Image 9" class="slide">
-      <img src="/assets/images/mec10.png" alt="Slideshow Image 10" class="slide">
-      <img src="/assets/images/mec11.png" alt="Slideshow Image 11" class="slide">
-    </div>
-    <h1>hey, i am ankit (— kush)</h1>
-    <p>here I write about personal events, fiction, philosophy, and engineering.</p>
-    <div class="contact-button">
-      <div class="button-group">
-        <a href="mailto:ankit@solanki.dev" class="mail-link">say hi!</a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9VWBjF-zO8Fy68WsiChmTzzVfA2QCcVRWepioy8GZ3pGqZQ/viewform?usp=header" target="_blank" class="mail-link anonymous">write anonymously to me</a>
+    <div class="intro-grid">
+      <div class="intro-left">
+        <div class="slideshow">
+          <img src="/assets/images/mec1.png" alt="Slideshow Image 1" class="slide active">
+          <img src="/assets/images/mec2.png" alt="Slideshow Image 2" class="slide">
+          <img src="/assets/images/mec3.png" alt="Slideshow Image 3" class="slide">
+          <img src="/assets/images/mec4.png" alt="Slideshow Image 4" class="slide">
+          <img src="/assets/images/mec5.png" alt="Slideshow Image 5" class="slide">
+          <img src="/assets/images/mec6.png" alt="Slideshow Image 6" class="slide">
+          <img src="/assets/images/mec7.png" alt="Slideshow Image 7" class="slide">
+          <img src="/assets/images/mec8.png" alt="Slideshow Image 8" class="slide">
+          <img src="/assets/images/mec9.png" alt="Slideshow Image 9" class="slide">
+          <img src="/assets/images/mec10.png" alt="Slideshow Image 10" class="slide">
+          <img src="/assets/images/mec11.png" alt="Slideshow Image 11" class="slide">
+        </div>
+        <h1>
+          <span style="display: inline-block; vertical-align: middle;">Hey, I am</span>
+          <div class="name-rotator" style="color: black; display: inline-block; vertical-align: middle; margin-left: 0.3em;">
+            <span class="rotating-text current">Ankit</span>
+            <span class="rotating-text">Kush</span>
+          </div>
+        </h1>
+        <!-- <p>Here I Write About Personal Events, Fiction, Philosophy, and Engineering.</p> -->
+        <div class="contact-button">
+          <div class="button-group">
+            <a href="mailto:ankit@solanki.dev" class="mail-link">Say Hi</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9VWBjF-zO8Fy68WsiChmTzzVfA2QCcVRWepioy8GZ3pGqZQ/viewform?usp=header" target="_blank" class="mail-link anonymous">Write Anonymously</a>
+          </div>
+          <span class="response-time">Likely Reply in &lt;24 Hours Unless George Published Winds of Winter, Then It'll Take a While</span>
+        </div>
       </div>
-      <span class="response-time">likely reply in &lt;24 hours unless george published winds of winter, then it'll take a while</span>
+      
+      <div class="intro-right">
+        <div class="nav-stack">
+          <a href="/about" class="stack-item">
+            <h2>About</h2>
+            <p>Get to Know Me</p>
+            <span class="arrow">→</span>
+          </a>
+          <a href="/blog" class="stack-item">
+            <h2>Blog</h2>
+            <p>Personal Thoughts</p>
+            <span class="arrow">→</span>
+          </a>
+          <a href="/fiction" class="stack-item">
+            <h2>Fiction</h2>
+            <p>Self-Written Stories</p>
+            <span class="arrow">→</span>
+          </a>
+          <a href="/projects" class="stack-item">
+            <h2>Engineering</h2>
+            <p>My computer science work till now</p>
+            <span class="arrow">→</span>
+          </a>
+          <!-- <a href="/ai-services" class="stack-item">
+            <h2>AI Agency Services</h2>
+            <p>Professional Consulting</p>
+            <span class="arrow">→</span>
+          </a> -->
+          <a href="/mentor" class="stack-item">
+            <h2>Self Mentorship Program</h2>
+            <p>Free Mentorship as Part of Giving Back</p>
+            <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="home-nav">
-    <a href="/about" class="nav-item">
-      <h2>about</h2>
-      <p></p>
-    </a>
-    <a href="/blog" class="nav-item">
-      <h2>blog</h2>
-      <p>personal thoughts</p>
-    </a>
-    <a href="/fiction" class="nav-item">
-      <h2>fiction</h2>
-      <p>self-written stories</p>
-    </a>
-    <a href="/projects" class="nav-item">
-      <h2>engineering</h2>
-      <p>microsaas and tech</p>
-    </a>
-  </section>
-
-  <section class="recent-posts">
-    <h2 class="section-title">recent posts</h2>
+  <!-- <section class="recent-posts">
+    <h2 class="section-title">Recent Posts</h2>
     {% assign non_fiction_posts = site.posts | where_exp: "post", "post.type != 'fiction'" %}
     {% for post in non_fiction_posts limit:5 %}
     <article class="post-item">
       <span class="post-meta">
-        <span class="post-type">{% if post.type %}{{ post.type | downcase }}{% else %}blog{% endif %}</span> •
-        {{ post.date | date: "%B %-d, %Y" | downcase }}
+        <span class="post-type">{% if post.type %}{{ post.type }}{% else %}Blog{% endif %}</span> •
+        {{ post.date | date: "%B %-d, %Y" }}
       </span>
       <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
     </article>
     {% endfor %}
-  </section>
+  </section> -->
 
-  <div class="all-posts-link">
-    <a href="/blog">view all articles →</a>
-  </div>
+  <!-- <div class="all-posts-link">
+    <a href="/blog">View All Articles →</a>
+  </div> -->
 </div>
