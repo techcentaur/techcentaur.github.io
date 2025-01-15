@@ -8,15 +8,26 @@
 
     let currentSlide = 0;
 
+    // Add CSS transitions to all slides
+    slides.forEach((slide) => {
+      slide.style.transition = 'opacity 0.2s ease-in-out';
+      slide.style.opacity = '0';
+      slide.style.position = 'absolute';
+      slide.style.top = '0';
+      slide.style.left = '0';
+    });
+
     function showSlide(index) {
-      // Hide all slides
+      // Fade out current slides
       slides.forEach((slide) => {
-        slide.style.display = 'none';
+        slide.style.opacity = '0';
+        slide.style.zIndex = '1';
         slide.classList.remove('active');
       });
 
-      // Show the current slide
-      slides[index].style.display = 'block';
+      // Fade in new slide
+      slides[index].style.opacity = '1';
+      slides[index].style.zIndex = '2';
       slides[index].classList.add('active');
     }
 
@@ -26,10 +37,11 @@
     }
 
     // Show first slide immediately
-    showSlide(0);
+    slides[0].style.opacity = '1';
+    slides[0].classList.add('active');
 
     // Start the slideshow
-    const interval = setInterval(nextSlide, 400);
+    const interval = setInterval(nextSlide, 700);
 
     // Preload images
     slides.forEach((slide) => {

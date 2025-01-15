@@ -973,11 +973,10 @@ footer {
 }
 
 .rotating-text:not(.current) {
-  transform: translateY(100%);
+  transform: translateY(100%); // Adjusted to account for the initial translation
 }
 
 .rotating-text.current {
-  transform: translateY(0);
   opacity: 1;
 }
 
