@@ -41,7 +41,7 @@
     slides[0].classList.add('active');
 
     // Start the slideshow
-    const interval = setInterval(nextSlide, 700);
+    const interval = setInterval(nextSlide, 1000);
 
     // Preload images
     slides.forEach((slide) => {

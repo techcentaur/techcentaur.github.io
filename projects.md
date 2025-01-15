@@ -266,13 +266,38 @@ permalink: /projects/
   <div class="project-list">
     <div class="project-item">
       <div class="project-info">
-        <h3 class="project-title">Software Engineer @ PolymerSearch</h3>
-        <p class="project-desc">Core server development, AI insights, and NLP implementations (Oct 2021 - Nov 2024)[Seed Funding, Early Revenue]</p>
-      </div>
-      <div class="tech-tags">
-        <span class="tag">golang</span>
-        <span class="tag">redis</span>
-        <span class="tag">mongodb</span>
+        <h3 class="project-title">PolymerSearch</h3>
+        <div class="project-positions" style="margin-left: 1rem;">
+          <div class="position">
+            <p class="project-desc" style="margin-bottom: 0.2rem;">AI Software Engineer</p>
+            <p class="project-desc" style="margin-left: 1rem;">Created PolyAI (LLM based Gen-AI system) with custom agentic system and complex tooling architecture for dynamic user data handling (Aug 2023 - Nov 2024)</p>
+            <div class="tech-tags">
+              <span class="tag">LLM</span>
+              <span class="tag">gen-ai</span>
+              <span class="tag">agents</span>
+            </div>
+          </div>
+
+          <div class="position">
+            <p class="project-desc" style="margin-bottom: 0.2rem;">Software Engineer II</p>
+            <p class="project-desc" style="margin-left: 1rem;">Core server development focusing on performance optimization, maintenance, and combinatorial algorithms (Oct 2021 - Aug 2023)</p>
+            <div class="tech-tags">
+              <span class="tag">golang</span>
+              <span class="tag">redis</span>
+              <span class="tag">mongodb</span>
+            </div>
+          </div>
+
+          <div class="position">
+            <p class="project-desc" style="margin-bottom: 0.2rem;">Founding Engineer</p>
+            <p class="project-desc" style="margin-left: 1rem;">Implemented data and NLP applications for traffic optimization through auto-tagging and SEO (Jul 2021 - Sep 2021)</p>
+            <div class="tech-tags">
+              <span class="tag">python</span>
+              <span class="tag">nlp</span>
+              <span class="tag">seo</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
