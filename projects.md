@@ -249,8 +249,12 @@ permalink: /projects/
     </div>
     <div class="project-item">
       <div class="project-info">
-        <h3 class="project-title">Launching 2 Soon...</h3>
-        <!-- <p class="project-desc">Stay tuned for more updates on my startup ventures.</p> -->
+        <h3 class="project-title">Reply.AI</h3>
+        <p class="project-desc">AI-Powered Reddit Marketing That Actually Works [Bootstrapped, Just launched]</p>
+      </div>
+      <div class="tech-tags">
+        <span class="tag">marketing</span>
+        <span class="tag">ai</span>
       </div>
     </div>
   </div>
@@ -263,7 +267,7 @@ permalink: /projects/
     <div class="project-item">
       <div class="project-info">
         <h3 class="project-title">Software Engineer @ PolymerSearch</h3>
-        <p class="project-desc">Core server development, AI insights, and NLP implementations (Oct 2021 - Present)[Seed Funding, Early Revenue]</p>
+        <p class="project-desc">Core server development, AI insights, and NLP implementations (Oct 2021 - Nov 2024)[Seed Funding, Early Revenue]</p>
       </div>
       <div class="tech-tags">
         <span class="tag">golang</span>
