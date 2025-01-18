@@ -12,8 +12,6 @@ permalink: /projects/
     <span class="separator">•</span>
     <a href="#startups" class="toc-link">Startups I've Worked At</a>
     <span class="separator">•</span>
-    <a href="#work" class="toc-link">Work Experience</a>
-    <span class="separator">•</span>
     <a href="#opensource" class="toc-link">Open Source</a>
   </nav>
 </div>
@@ -47,18 +45,6 @@ permalink: /projects/
 .separator {
   color: #666;
   font-size: 0.8em;
-}
-
-.tag {
-  display: inline-block;
-  padding: 3px 8px;
-  margin: 0 4px;
-  border-radius: 4px;
-  background-color: #f5f5f5;
-  color: #666;
-  font-size: 0.75em;
-  font-weight: 400;
-  letter-spacing: 0.3px;
 }
 
 .projects-section {
@@ -116,25 +102,6 @@ permalink: /projects/
   text-align: left;
 }
 
-.tech-tags {
-  display: flex;
-  gap: 0.25rem;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  margin: 0;
-  padding: 0;
-  line-height: 1.2;
-}
-
-.project-stage {
-  font-size: 0.85em;
-  color: #666;
-  margin: 0;
-  padding: 0;
-  line-height: 1.2;
-  text-align: left;
-}
-
 .project-info {
   display: flex;
   flex-direction: column;
@@ -146,10 +113,6 @@ permalink: /projects/
   .project-item {
     grid-template-columns: 1fr;
     gap: 0.5rem;
-  }
-  
-  .tech-tags {
-    justify-content: flex-start;
   }
 }
 </style>
@@ -163,21 +126,12 @@ permalink: /projects/
         <h3 class="project-title">IIT Delhi</h3>
         <p class="project-desc">B.Tech & M.Tech in Computer Science (2016 - 2021)</p>
       </div>
-      <div class="tech-tags">
-        <span class="tag">CSE</span>
-        <span class="tag">Dual Degree</span>
-      </div>
     </div>
-
     
     <div class="project-item">
       <div class="project-info">
         <h3 class="project-title">Master's Thesis</h3>
         <p class="project-desc">Benchmarking Auto-Scaling Capability of OpenFaaS</p>
-      </div>
-      <div class="tech-tags">
-        <span class="tag">FaaS</span>
-        <span class="tag">benchmarking</span>
       </div>
     </div>
 
@@ -186,35 +140,19 @@ permalink: /projects/
         <h3 class="project-title">Research Project @ Bharti School</h3>
         <p class="project-desc">Music Generation Using GAN - Implemented hybrid-GAN for polyphonic music</p>
       </div>
-      <div class="tech-tags">
-        <span class="tag">ML</span>
-        <span class="tag">GAN</span>
-        <span class="tag">Music</span>
-      </div>
     </div>
-
-        
+    
     <div class="project-item">
       <div class="project-info">
         <h3 class="project-title">System Admin @ IIT Delhi</h3>
         <p class="project-desc">OAuth system and infrastructure management (Sep 2017 - Jul 2021)</p>
       </div>
-      <div class="tech-tags">
-        <span class="tag">linux</span>
-        <span class="tag">apache</span>
-      </div>
     </div>
-
 
     <div class="project-item">
       <div class="project-info">
         <h3 class="project-title">SDE Intern @ Flipkart</h3>
         <p class="project-desc">Developed Hive Logic signal generator for hadoop clusters (Summer 2020)</p>
-      </div>
-      <div class="tech-tags">
-        <span class="tag">hadoop</span>
-        <span class="tag">hive</span>
-        <span class="tag">java</span>
       </div>
     </div>
 
@@ -223,13 +161,7 @@ permalink: /projects/
         <h3 class="project-title">Data Science Intern @ Nokia</h3>
         <p class="project-desc">Real-time customer complaints analysis and network congestion prediction (Summer 2019)</p>
       </div>
-      <div class="tech-tags">
-        <span class="tag">data science</span>
-        <span class="tag">ml</span>
-        <span class="tag">python</span>
-      </div>
     </div>
-
   </div>
 </section>
 
@@ -242,19 +174,11 @@ permalink: /projects/
         <h3 class="project-title"><a href="https://garudinsights.com">Garud Insights</a></h3>
         <p class="project-desc">AI-powered market intelligence platform for Indian traders [Bootstrapped, Early Revenue]</p>
       </div>
-      <div class="tech-tags">
-        <span class="tag">fintech</span>
-        <span class="tag">ai</span>
-      </div>
     </div>
     <div class="project-item">
       <div class="project-info">
         <h3 class="project-title">Reply.AI</h3>
         <p class="project-desc">AI-Powered Reddit Marketing That Actually Works [Bootstrapped, Just launched]</p>
-      </div>
-      <div class="tech-tags">
-        <span class="tag">marketing</span>
-        <span class="tag">ai</span>
       </div>
     </div>
   </div>
@@ -271,38 +195,22 @@ permalink: /projects/
           <div class="position">
             <p class="project-desc" style="margin-bottom: 0.2rem;">AI Software Engineer</p>
             <p class="project-desc" style="margin-left: 1rem;">Created PolyAI (LLM based Gen-AI system) with custom agentic system and complex tooling architecture for dynamic user data handling (Aug 2023 - Nov 2024)</p>
-            <div class="tech-tags">
-              <span class="tag">LLM</span>
-              <span class="tag">gen-ai</span>
-              <span class="tag">agents</span>
-            </div>
           </div>
 
           <div class="position">
             <p class="project-desc" style="margin-bottom: 0.2rem;">Software Engineer II</p>
             <p class="project-desc" style="margin-left: 1rem;">Core server development focusing on performance optimization, maintenance, and combinatorial algorithms (Oct 2021 - Aug 2023)</p>
-            <div class="tech-tags">
-              <span class="tag">golang</span>
-              <span class="tag">redis</span>
-              <span class="tag">mongodb</span>
-            </div>
           </div>
 
           <div class="position">
             <p class="project-desc" style="margin-bottom: 0.2rem;">Founding Engineer</p>
             <p class="project-desc" style="margin-left: 1rem;">Implemented data and NLP applications for traffic optimization through auto-tagging and SEO (Jul 2021 - Sep 2021)</p>
-            <div class="tech-tags">
-              <span class="tag">python</span>
-              <span class="tag">nlp</span>
-              <span class="tag">seo</span>
-            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-
 <!-- Open Source Section -->
 <section id="opensource" class="projects-section">
   <h2>Open Source</h2>
@@ -312,20 +220,12 @@ permalink: /projects/
         <h3 class="project-title"><a href="https://github.com/techcentaur/gobatch">gobatch</a></h3>
         <p class="project-desc">Golang package for efficient batch processing</p>
       </div>
-      <div class="tech-tags">
-        <span class="tag">golang</span>
-        <span class="tag">concurrency</span>
-      </div>
     </div>
     
     <div class="project-item">
       <div class="project-info">
         <h3 class="project-title"><a href="https://github.com/techcentaur/batsync">batsync</a></h3>
         <p class="project-desc">Python async manager for rate-limited operations</p>
-      </div>
-      <div class="tech-tags">
-        <span class="tag">python</span>
-        <span class="tag">async</span>
       </div>
     </div>
     
@@ -334,9 +234,12 @@ permalink: /projects/
         <h3 class="project-title"><a href="https://github.com/techcentaur/Bitcoin-Simulation">Bitcoin Simulation</a></h3>
         <p class="project-desc">Complete Bitcoin system implementation</p>
       </div>
-      <div class="tech-tags">
-        <span class="tag">blockchain</span>
-        <span class="tag">crypto</span>
+    </div>
+    
+    <div class="project-item">
+      <div class="project-info">
+        <h3 class="project-title"><a href="https://github.com/techcentaur/PyLex">PyLex</a></h3>
+        <p class="project-desc">Perform lexical analysis on words, one word at a time.</p>
       </div>
     </div>
   </div>
