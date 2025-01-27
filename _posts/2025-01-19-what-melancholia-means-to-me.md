@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Melancholia to Me, And Its Praise
+title: The Art of Carrying Melancholia
 type: post
 ---
 

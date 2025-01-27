@@ -43,13 +43,13 @@ layout: default
             <p>Get to Know Me</p>
             <span class="arrow">→</span>
           </a>
-          <a href="/blog" class="stack-item">
-            <h2>Blog</h2>
+          <a href="/blog" class="stack-item" style="border: 2px solid #00bfff;">
+            <h2>Blog <span class="post-counter">+2</span></h2>
             <p>Personal Thoughts</p>
             <span class="arrow">→</span>
           </a>
-          <a href="/fiction" class="stack-item">
-            <h2>Fiction</h2>
+          <a href="/fiction" class="stack-item" style="border: 2px solid #00bfff;">
+            <h2>Fiction <span class="post-counter">+1</span></h2>
             <p>Self-Written Stories</p>
             <span class="arrow">→</span>
           </a>
@@ -96,3 +96,17 @@ layout: default
     <a href="/blog">View All Articles →</a>
   </div> -->
 </div>
+
+<style>
+.post-counter {
+  font-size: 0.8em;
+  background-color: #00bfff;  /* sky blue background */
+  padding: 2px 6px;
+  border-radius: 10px;
+  position: relative;
+  top: -8px;
+  margin-left: 2px;
+  color: #e6f3ff;  /* lighter sky blue text color */
+  font-weight: normal;
+}
+</style>
