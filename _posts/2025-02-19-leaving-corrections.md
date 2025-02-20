@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sure"
-date: 2020-02-19
+date: 2025-02-19
 ---
 
 The thought of "should I tell? or argue? or point out some inconsistency?" has bothered me whenever it has arisen. I used to feel a strong need to correct others. "Where's the ethical consistency if someone said this?" I had to point out. "Your empathy only goes so far as to sustain your gender-based arguments", "your kindness is partial", "your ethics are loose when they are onto you", "you are wrong here", "you said this", "you did this but not that, and so and so".
