@@ -9,6 +9,15 @@ layout: compress
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BMS5MGH643"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-BMS5MGH643');
+  </script>
 </head>
 <body>
   <header>
