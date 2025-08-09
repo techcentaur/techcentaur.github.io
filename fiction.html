@@ -1,23 +1,29 @@
 ---
-layout: page
-title: Fiction (I've Written)
-permalink: /fiction/
+layout: default
+title: Fiction
 ---
 
-<div class="fiction-intro">
-  <p>Stories; never full, never complete; always fragmented excerpts. Sharing them entirely will break my heart.</p>
-</div>
+<h2>Fiction Writing</h2>
 
-<div class="fiction-list">
+About my fiction:
+<ul>
+  <li>Stories, never full, never complete</li>
+  <li>Always fragmented excerpts</li>
+  <li>Sharing them entirely would break my heart</li>
+</ul>
+
+Fiction excerpts:
+<ul>
   {% for post in site.posts %}
     {% if post.type == 'fiction' %}
-    <article class="post-item">
-      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-      <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-      {% if post.excerpt %}
-      <p class="excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-      {% endif %}
-    </article>
+    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})</li>
     {% endif %}
   {% endfor %}
-</div> 
+</ul>
+
+Links:
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog">Blog</a></li>
+  <li><a href="/about">About</a></li>
+</ul> 

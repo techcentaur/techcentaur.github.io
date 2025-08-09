@@ -1,113 +1,69 @@
 ---
 layout: default
 ---
-    
-<div class="home">
-  <section class="intro">
-    <div class="intro-grid">
-      <div class="intro-left">
-        <div class="slideshow">
-          <img src="/assets/images/mec1.png" alt="Slideshow Image 1" class="slide active">
-          <img src="/assets/images/mec2.png" alt="Slideshow Image 2" class="slide">
-          <img src="/assets/images/mec3.png" alt="Slideshow Image 3" class="slide">
-          <img src="/assets/images/mec4.png" alt="Slideshow Image 4" class="slide">
-          <img src="/assets/images/mec5.png" alt="Slideshow Image 5" class="slide">
-          <img src="/assets/images/mec6.png" alt="Slideshow Image 6" class="slide">
-          <img src="/assets/images/mec7.png" alt="Slideshow Image 7" class="slide">
-          <img src="/assets/images/mec8.png" alt="Slideshow Image 8" class="slide">
-          <img src="/assets/images/mec9.png" alt="Slideshow Image 9" class="slide">
-          <img src="/assets/images/mec10.png" alt="Slideshow Image 10" class="slide">
-          <img src="/assets/images/mec11.png" alt="Slideshow Image 11" class="slide">
-        </div>
-        <h1>
-          <span style="display: inline-block; vertical-align: baseline; transform: translateY(-7px);">Hey, I am</span>
-          <div class="name-rotator" style="color: black; display: inline-block; vertical-align: baseline; margin-left: 0.2em; position: relative; height: 1.2em;">
-            <span class="rotating-text current" style="transform: translateY(0); position: absolute; top: 0;">Ankit</span>
-            <span class="rotating-text" style="transform: translateY(100%); position: absolute; top: 0;">Kush</span>
-          </div>
-        </h1>
-        <!-- <p>Here I Write About Personal Events, Fiction, Philosophy, and Engineering.</p> -->
-        <div class="contact-button">
-          <div class="button-group">
-            <a href="mailto:ankit@solanki.dev" class="mail-link">Say Hi</a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9VWBjF-zO8Fy68WsiChmTzzVfA2QCcVRWepioy8GZ3pGqZQ/viewform?usp=header" target="_blank" class="mail-link anonymous">Write Anonymously</a>
-          </div>
-          <span class="response-time">Likely Reply in &lt;24 Hours Unless George Published Winds of Winter, Then It'll Take a While</span>
-        </div>
-      </div>
-      
-      <div class="intro-right">
-        <div class="nav-stack">
-          <a href="/about" class="stack-item">
-            <h2>About</h2>
-            <p>Get to Know Me</p>
-            <span class="arrow">→</span>
-          </a>
-          <!-- style="border: 2px solid #00bfff;" -->
-          <a href="/blog" class="stack-item" >
-            <h2>Blog</h2>
-            <p>Personal Thoughts</p>
-            <span class="arrow">→</span>
-          </a>
-          <a href="/fiction" class="stack-item">
-            <h2>Fiction</h2>
-            <p>Self-Written Stories</p>
-            <span class="arrow">→</span>
-          </a>
-          <!-- <a href="/projects" class="stack-item">
-            <h2>Engineering</h2>
-            <p>My computer science work till now</p>
-            <span class="arrow">→</span>
-          </a> -->
-          <!-- <a href="/funding" class="stack-item">
-            <h2>Apply for Funding</h2>
-            <p>For your startup</p>
-            <span class="arrow">→</span>
-          </a> -->
-          <!-- <a href="/ai-services" class="stack-item">
-            <h2>AI Agency Services</h2>
-            <p>Professional Consulting</p>
-            <span class="arrow">→</span>
-          </a> -->
-          <!-- <a href="/mentor" class="stack-item">
-            <h2>Self Mentorship Program</h2>
-            <p>Free Mentorship as Part of Giving Back</p>
-            <span class="arrow">→</span>
-          </a> -->
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- <section class="recent-posts">
-    <h2 class="section-title">Recent Posts</h2>
-    {% assign non_fiction_posts = site.posts | where_exp: "post", "post.type != 'fiction'" %}
-    {% for post in non_fiction_posts limit:5 %}
-    <article class="post-item">
-      <span class="post-meta">
-        <span class="post-type">{% if post.type %}{{ post.type }}{% else %}Blog{% endif %}</span> •
-        {{ post.date | date: "%B %-d, %Y" }}
-      </span>
-      <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
-    </article>
-    {% endfor %}
-  </section> -->
-
-  <!-- <div class="all-posts-link">
-    <a href="/blog">View All Articles →</a>
-  </div> -->
+<h2>Ankit Solanki</h2>
+<div>
+  <a href="/blog">Blog</a>
+  <a href="/fiction">Fiction</a>
+  <a href="/about">About</a>
 </div>
 
-<style>
-.post-counter {
-  font-size: 0.8em;
-  background-color: #00bfff;  /* sky blue background */
-  padding: 2px 6px;
-  border-radius: 10px;
-  position: relative;
-  top: -8px;
-  margin-left: 2px;
-  color: #e6f3ff;  /* lighter sky blue text color */
-  font-weight: normal;
-}
-</style>
+<h4>Some things about me:</h4>
+<ul>
+  <li>Currently working as "Staff AI Tech Lead" at <a href="https://www.kaincap.com/" target="_blank">Kain Capital.</a></li>
+  <ul>
+    <li>Founded few companies. Worked 4 years as a founding engineer at a company went from few to 100k active users in 3 years. More on   <a href="https://linkedin.com/in/ankitsolanki03" target="_blank">LinkedIn</a>  and   <a href="https://github.com/techcentaur" target="_blank">GitHub.</a>
+    </li>
+  </ul>
+  <li>IIT Delhi 2021 batch of Computer Science and Engineering.</li>
+  <li>Grew up in Bikaner, Rajasthan.</li>
+  <li>Extensive reader, occasional <a href="/fiction">writer.</a></li>
+  <li>Chess 1900 Lichess elo crossed recently.</li>
+</ul>
+<hr style="border: 1px solid lightgray">
+<h4>Things I believe in:</h4>
+
+<div style="margin-left: 30px;">
+  <p>Enthusiasm matters!</p>
+  <ul>
+    <li>It's much easier to work on things that are exciting to you</li>
+    <li>Energy is a necessary input for progress</li>
+  </ul>
+
+  <p>Urgency is MUST</p>
+  <ul>
+    <li>Slow is always fake and unclear. Fast is clear and sometimes fake.</li>
+    <li>A week is 2% of the year</li>
+    <li>You have to put yourself on death ground, no it can not be done next week.</li>
+    <li>Going fast makes you focus on what's important; there's no time for bullshit</li>
+  </ul>
+
+  <p>Many people have conventioned train of thought</p>
+  <ul>
+    <li>Ask right questions, and ask well. It's better to avoid a predictable mistake than to make one.</li>
+  </ul>
+
+  <p>The cultural prohibition on micromanagement is harmful</p>
+  <ul>
+    <li>Great individuals should exercise their judgment</li>
+    <li>The goal is not to avoid mistakes, the goal is to achieve unparalleled levels of excellence in a given area.</li>
+    <li>The downsides are worth it.</li>
+  </ul>
+
+  <p><strong>Smaller teams are better</strong></p>
+  <ul>
+    <li>No room for mediocre people</li>
+    <li>Faster decisions, fewer meetings, more fun</li>
+    <li>Most tech companies are 2-10x overstaffed.</li>
+    <li>The bottleneck in big projects is often less about resources and more about brainpower</li>
+  </ul>
+
+
+  <p></p>Improvement is the only way to get your dopamine</p>
+  <ul>
+    <li>Better to get your dopamine from improving your ideas than from having them validated</li>
+    <li>Don't get tied down by invisible orthodoxy, the laws of physics are the only limit</li>
+  </ul>
+
+</div>
